@@ -63,11 +63,17 @@ const addContent = `
     </head>
     <body>
         <header>
-            <h1>Asigment 2: NPM AND MORE...</h1>
+            <h1>Asigment 2: NPM, NODE, GIT VERSION WITH DATES AND MORE...</h1>
         </header>
         <main>
             <div>
-                
+                <ul>
+                    <li>Hej, my name is ${first} ${last}</li>
+                    <li>Today is: ${format(new Date(), 'EEEE dd/MMM/yyyy')}</li>
+                    <li>I started in JavaScript-ramverk ${result} ago.</li>
+                    <li>npm & node: ${process.env.npm_config_user_agent}</li>
+                    <li>Git version: ${stdout}</li>
+                </ul>
             </div>
         </main>
     </body>

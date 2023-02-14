@@ -12,3 +12,17 @@ h1{
     color: bisque;
     text-align: center;
 }
+
+div {
+    background-color: brown;
+    margin: auto;
+    margin-top: 36px;
+    padding: 48px;
+    width: 50%;
+}
+
+ul,
+li {
+    background-color: bisque;
+    text-decoration: hide;
+}
