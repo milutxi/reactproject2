@@ -1,0 +1,14 @@
+body {
+    background-color: bisque;
+}
+
+header {
+    background-color: brown;
+    margin: 0;
+    padding: 32px;
+}
+
+h1{
+    color: bisque;
+    text-align: center;
+}
